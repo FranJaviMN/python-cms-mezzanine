@@ -1,0 +1,361 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$36000$MSmRoQRGDn3b$aSfAbmncIDe3K7NWTzTkS+yIe9MSUryY2eF3dp7m9Ig=",
+        "last_login": "2021-01-14T13:11:53.147Z",
+        "is_superuser": true,
+        "username": "francisco",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-01-14T12:57:59.571Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "Francisco Javier"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 1,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "ADMIN_MENU_COLLAPSED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 2,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "AKISMET_API_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 3,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "BITLY_ACCESS_TOKEN",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 4,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "BLOG_POST_PER_PAGE",
+        "value": "5"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 5,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_ACCOUNT_REQUIRED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 6,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DEFAULT_APPROVED",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 7,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_API_PUBLIC_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 8,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_API_SECRET_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 9,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_DISQUS_SHORTNAME",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 10,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_NOTIFICATION_EMAILS",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 11,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_NUM_LATEST",
+        "value": "5"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 12,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_REMOVED_VISIBLE",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 13,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "COMMENTS_UNAPPROVED_VISIBLE",
+        "value": "True"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 14,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "GOOGLE_ANALYTICS_ID",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 15,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "MAX_PAGING_LINKS",
+        "value": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 16,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "RATINGS_ACCOUNT_REQUIRED",
+        "value": "False"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 17,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "RICHTEXT_FILTER_LEVEL",
+        "value": "1"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 18,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SEARCH_PER_PAGE",
+        "value": "10"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 19,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SITE_TAGLINE",
+        "value": "Un proyecto de Implantacion de aplicaciones web"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 20,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "SITE_TITLE",
+        "value": "Francisco Javier Mezzanine"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 21,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TAG_CLOUD_SIZES",
+        "value": "4"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 22,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_ACCESS_TOKEN_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 23,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_ACCESS_TOKEN_SECRET",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 24,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_CONSUMER_KEY",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 25,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_CONSUMER_SECRET",
+        "value": ""
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 26,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_NUM_TWEETS",
+        "value": "3"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 27,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_QUERY",
+        "value": "from:stephen_mcd mezzanine"
+    }
+},
+{
+    "model": "conf.setting",
+    "pk": 28,
+    "fields": {
+        "site": [
+            "127.0.0.1:8000"
+        ],
+        "name": "TWITTER_DEFAULT_QUERY_TYPE",
+        "value": "search"
+    }
+},
+{
+    "model": "twitter.query",
+    "pk": 1,
+    "fields": {
+        "type": "search",
+        "value": "from:stephen_mcd mezzanine",
+        "interested": true
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-01-14T13:08:58.639Z",
+        "user": [
+            "francisco"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "127.0.0.1:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+    }
+}
+]
